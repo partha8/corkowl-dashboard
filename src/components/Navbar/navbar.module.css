@@ -1,0 +1,92 @@
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color-dark);
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    position: sticky;
+    top: 0;
+}
+
+.nav h2 {
+    font-weight: normal;
+    letter-spacing: 3px;
+    color: var(--primary-color-shade1);
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.owl {
+    height: 3rem;
+    width: 3rem;
+}
+
+.searchContainer {
+    background: #fff;
+    color: var(--font-color-light);
+    padding: 0 0.6rem;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-left: 9rem;
+    width: 20rem;
+}
+
+.search {
+    outline: none;
+    border: none;
+    background: none;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.search::placeholder {
+    color: var(--font-color-light);
+    text-transform: capitalize;
+}
+
+.searchIcon {
+    cursor: pointer;
+}
+
+.actionButtons {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bell {
+    font-size: 1.4rem;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.2rem;
+}
+
+.account>* {
+    cursor: pointer
+}
+
+.avatar {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+}
+
+.down {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,5 +1,10 @@
 import React from "react";
+import { Navbar } from "./components";
 
 export const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <Navbar />
+    </>
+  );
 };

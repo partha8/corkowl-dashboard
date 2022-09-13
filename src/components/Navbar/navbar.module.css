@@ -26,13 +26,13 @@
 
 .searchContainer {
     background: #fff;
-    color: var(--font-color-light);
+    color: var(--font-color-dark);
     padding: 0 0.6rem;
     border-radius: 4px;
     display: flex;
     align-items: center;
     font-size: 1.4rem;
-    margin-left: 9rem;
+    margin-left: 6.3rem;
     width: 20rem;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .search::placeholder {
-    color: var(--font-color-light);
+    color: var(--font-color-lighter);
     text-transform: capitalize;
 }
 

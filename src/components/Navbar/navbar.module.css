@@ -14,6 +14,16 @@
     color: var(--primary-color-shade1);
 }
 
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.owl {
+    height: 3rem;
+    width: 3rem;
+}
+
 .searchContainer {
     background: #fff;
     color: var(--font-color-light);

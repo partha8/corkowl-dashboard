@@ -4,11 +4,12 @@ import {AiOutlineSearch} from 'react-icons/ai'
 import {FiBell} from 'react-icons/fi'
 import {FaChevronDown} from 'react-icons/fa'
 import img from '../../assets/profile.jpg'
+import owl from '../../assets/owl.png'
 
 export const Navbar = () => {
   return (
     <nav className={styles.nav}>
-      <h2>CORKOWL</h2>
+      <h2 className={styles.brand}>CORK<img className={styles.owl} src={owl} alt="owl" /> WL</h2>
 
       <section className={styles.searchContainer} >
       <AiOutlineSearch className={styles.searchIcon} />

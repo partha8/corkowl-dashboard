@@ -13,13 +13,15 @@
   --primary-color-dark: #811434;
   --primary-color-shade1: #f7f1f3;
   --primary-color-shade2: #fff2ee;
+  
   --success-color: #2fca72;
   --warning-color: #ffaa2c;
   --info-color: #2c67ff;
   --border-color: #ECF1F4;
   --gray-shade1: #f4f7ff;
 
-  --borderRadius: 10px;
+  --light-shadow: 0 5px 15px rgba(165, 165, 165, 0.353);
+
   --letterSpacing: 1px;
   --max-width: 1250px;
   --fixed-width: 500px;

@@ -2,7 +2,6 @@ import React from 'react'
 import styles from './navbar.module.css'
 import {AiOutlineSearch} from 'react-icons/ai'
 import {FiBell} from 'react-icons/fi'
-import {BsChevronDown} from 'react-icons/bs'
 import {FaChevronDown} from 'react-icons/fa'
 import img from '../../assets/profile.jpg'
 

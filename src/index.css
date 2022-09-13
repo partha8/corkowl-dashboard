@@ -15,7 +15,7 @@
   --success-color: #2fca72;
   --warning-color: #ffaa2c;
   --info-color: #2c67ff;
-
+  --border-color: #ECF1F4;
   --gray-shade1: #f4f7ff;
 
   --borderRadius: 10px;
@@ -38,4 +38,8 @@ a {
 
 body {
   font-family: sans-serif;
+}
+
+.container {
+  display: flex;
 }
